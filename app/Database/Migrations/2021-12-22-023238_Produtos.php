@@ -1,27 +1,43 @@
 <?php
-
 namespace App\Database\Migrations;
-
 use CodeIgniter\Database\Migration;
-
 class Produtos extends Migration
 {
     public function up()
     {
         $this->forge->addField([
-            'id' => [
+            'id_produto' => [
                 'type'          => 'INT',
                 'constraint'    => 9, // tamanho da linha
                 'unsigned'      => true, //usa e inserir + 1
                 'auto_increment' => true,
             ],
-            'name' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+            'name'       => [
+                'type'   => 'VARCHAR',
+                'constraint' => 128, // tamanho 
+            ],
+            'descricao' => [
+                'type' => 'TEXT', // texte 
+                
+            ],
+            'valor_de_compra' => [
+                'type' => 'DOUBLE', // tipo com decimal double 
+                
+            ],
+            'valor_de_venda' => [
+                'type' => 'DOUBLE', // tipo com decimal double 
+                
+            ],
+            'quantidade' => [
+                'type'   => 'INT',
+                
+            ],
+            'validade'          => [
+                'type'       => 'DATE', 
             ],
             'created_at' => [
                 'type' => 'DATETIME',
-                'null' => true,
+                'null' => true, 
             ],
             'updated_at' => [
                 'type' => 'DATETIME',
@@ -32,11 +48,11 @@ class Produtos extends Migration
                 'null' => true,
             ],
         ]);
-        $this->forge->addKey('id', true);
-        $this->forge->createTable('tableName');
+        $this->forge->addKey('id_produto', true); // id 
+        $this->forge->createTable('produtos');  // nome da tabela
     }
     public function down()
     {
-        $this->forge->dropTable('tableName');
+        $this->forge->dropTable('produtos'); // apaga a tabela
     }
 }
