@@ -1,3 +1,175 @@
 ERROR - 2021-12-22 06:48:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
 ERROR - 2021-12-22 06:49:24 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
 ERROR - 2021-12-22 06:50:18 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2021-12-22 16:43:50 --> Unknown column 'nome' in 'field list'
+ERROR - 2021-12-22 16:45:14 --> Unknown column 'nome' in 'field list'
+CRITICAL - 2021-12-22 20:20:52 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array, Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:20:55 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array, Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:21:41 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:25:24 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:27:13 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:41:08 --> syntax error, unexpected '$produto' (T_VARIABLE), expecting ';' or ','
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:47:58 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:34 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:34 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:35 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:35 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:35 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:35 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 20:48:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\app\Controllers\Produtos.php(35): view('produtos/index', Array)
+#3 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(824): App\Controllers\Produtos->index()
+#4 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\estudo-ci4-vue\ci4-curso-udemy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
